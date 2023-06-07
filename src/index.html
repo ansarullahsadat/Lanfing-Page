@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="script.js"></script>
+    <title>Landing-Page</title>
+  </head>
+
+  <!--  -->
+
+  <body class="flex flex-col items-center min-h-screen overflow-x-hidden">
+    <header
+      class="w-full bg-slate-100 text-xs text-slate-700 font-medium relative"
+    >
+      <nav class="flex items-center justify-between sm:px-4">
+        <div
+          class="transition-all py-5 w-[4rem] flex items-center justify-center mr-auto cursor-pointer sm:hidden nav-btn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+
+        <ul class="items-center justify-start hidden sm:flex">
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <a href="#" class="flex items-center gap-1">Products</a>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <a href="#">Collections</a>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <a href="#">Gifts</a>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <a href="#">Our magazine</a>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+        </ul>
+
+        <ul class="flex items-center px-3">
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-2 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5 mt-0.5 text-slate-500 cursor-pointer"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+          <li
+            class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+          >
+            <div
+              class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+            ></div>
+            <button class="text-slate-500 hover:text-black cursor-pointer">
+              log in
+            </button>
+            <div
+              class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+            ></div>
+          </li>
+
+          <button
+            class="py-2 px-4 rounded-full bg-gradient-to-r from-[#ff7b81] to-[#ff8d54] text-white uppercase text-xs font-medium shadow-xl hover:shadow-[#ff7b81]/30 transition-all"
+          >
+            Sign up
+          </button>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="w-full h-[50vh] relative px-2">
+      <div class="w-full h-full absolute top-0 left-0">
+        <img
+          src="https://unsplash.com/photos/NDLLFxTELrU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Y3JlYXRpdmV8ZW58MHx8fHwxNjg1OTA1NTQxfDA&force=true&w=1920"
+          alt="sky"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <div
+        class="absolute top-1/2 -translate-y-1/2 text-center bg-[#111e25]/60 text-slate-100 py-12 w-[90%] sm:w-[28rem] px-4 rounded-lg left-1/2 -translate-x-1/2"
+      >
+        <h1 class="text-3xl mb-4 font-bold">Buy your domain today</h1>
+        <p class="text-xs">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+          sequi quae doloremque alias qui explicabo dolorem debitis placeat.
+        </p>
+
+        <button
+          class="py-2 mt-4 px-4 rounded-full bg-gradient-to-r from-[#ff7b81] to-[#ff8d54] text-white uppercase text-xs font-medium shadow-xl hover:shadow-[#ff7b81]/30 transition-all"
+        >
+          Shop now
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="w-full grid bg-slate-100 py-12 px-8 sm:grid-cols-2 justify-center gap-4"
+    >
+      <div
+        class="w-[18rem] bg-white h-[23rem] overflow-hidden rounded-lg hover:scale-105 transition-all cursor-pointer text-sm shadow-lg shadow-slate-400/40 ml-auto"
+      >
+        <div class="px-6 pt-6 pb-4 flex flex-col justify-center items-center">
+          <h1 class="text-xl font-medium mb-2 text-center">
+            Ready for autumn collections
+          </h1>
+          <p class="text-sm text-center text-slate-600">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis,
+            tenetur a asperiores.
+          </p>
+
+          <button
+            class="py-1.5 px-3 border-2 mt-4 inline-block uppercase rounded-full text-xs tracking-wider w-fit"
+          >
+            Purchase now
+          </button>
+        </div>
+
+        <div class="w-full h-[10rem]">
+          <img
+            src="https://unsplash.com/photos/LqKhnDzSF-8/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjg1OTQ4MDA2fA&force=true&w=1920"
+            alt="img"
+            class="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div
+        class="w-[18rem] bg-white h-[23rem] overflow-hidden rounded-lg hover:scale-105 transition-all cursor-pointer text-sm shadow-lg shadow-slate-400/40"
+      >
+        <div class="px-6 pt-6 pb-4 flex flex-col justify-center items-center">
+          <h1 class="text-xl font-medium mb-2 text-center">
+            Ready for autumn collections
+          </h1>
+          <p class="text-sm text-center text-slate-600">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis,
+            tenetur a asperiores.
+          </p>
+
+          <button
+            class="py-1.5 px-3 border-2 mt-4 inline-block uppercase rounded-full text-xs tracking-wider w-fit"
+          >
+            Purchase now
+          </button>
+        </div>
+
+        <div class="w-full h-[10rem]">
+          <img
+            src="https://unsplash.com/photos/PkbZahEG2Ng/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjg1OTQ5MTgyfA&force=true&w=1920"
+            alt="img"
+            class="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- nav -->
+    <div
+      class="w-full h-full fixed top-0 left-0 flex items-center justify-center bg-gradient-to-r from-[#ff7b81] to-[#ff8d54] navbar translate-x-full transition-all duration-500"
+    >
+      <div
+        class="absolute top-4 right-4 w-12 h-12 flex items-center justify-center cursor-pointer hover:bg-[#ff7b81] transition-all rounded-full text-slate-100 nav-btn"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-5 h-5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+
+      <ul
+        class="flex flex-col bg-white rounded-lg py-12 items-center justify-center w-[17rem]"
+      >
+        <li
+          class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+        >
+          <div
+            class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+          ></div>
+          <a href="#" class="flex items-center gap-1"
+            >Products<svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-4 h-4 mt-0.5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              /></svg
+          ></a>
+          <div
+            class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+          ></div>
+        </li>
+        <li
+          class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+        >
+          <div
+            class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+          ></div>
+          <a href="#">Collections</a>
+          <div
+            class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+          ></div>
+        </li>
+        <li
+          class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+        >
+          <div
+            class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+          ></div>
+          <a href="#">Gifts</a>
+          <div
+            class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+          ></div>
+        </li>
+        <li
+          class="transition-all py-5 text-slate-500 hover:text-black px-4 flex items-center justify-center cursor-pointer group flex-col gap-1"
+        >
+          <div
+            class="w-full bg-[#ff7b81] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-right"
+          ></div>
+          <a href="#">Our magazine</a>
+          <div
+            class="w-full bg-[#ff8d54] h-[1px] rounded-full scale-0 group-hover:scale-100 transition-all duration-500 origin-left"
+          ></div>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <!--  -->
+</html>
